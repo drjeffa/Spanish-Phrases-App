@@ -71,7 +71,8 @@ body {
     background-color:  rgb(187, 67, 67);
     color: white;
     border: 1px solid blue;
-    
+    transition-property: height width;
+    transition-duration: 1s;
    
 }
 .btn:hover{
