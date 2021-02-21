@@ -2,6 +2,20 @@ body {
     background-color: beige;
     border: solid 20px green;
 }
+@media only screen and (min-width: 760px){
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        margin: 0;
+        border: none;       
+    } 
+    .container {
+        border: solid 10px green;
+    }
+}
+
 #title{
     text-align: center;
     font-family: bree serif;
@@ -19,10 +33,10 @@ body {
 
 #dialogBox {
     font-size: 30px;
-    height: 100px;
+    height: 150px;
     width: 70%;
-   font-family: merriweather, serif;
-   line-height: 1.6;
+    font-family: merriweather, serif;
+    line-height: 1.6;
     margin: auto;
     position: relative;
     padding: 10px;
@@ -57,11 +71,9 @@ body {
     background-color:  rgb(187, 67, 67);
     color: white;
     border: 1px solid blue;
-    transition-property: height width;
-    transition-duration: 1s;
+    
    
 }
 .btn:hover{
-    height: 45px;
-    width: 90px;
+    transform: scale(1.3);
 }
