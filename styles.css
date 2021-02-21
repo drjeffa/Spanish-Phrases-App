@@ -2,13 +2,13 @@ body {
     background-color: beige;
     border: solid 20px green;
 }
-@media only screen and (min-width: 760px){
+@media only screen and (min-width: 800px){
     body {
         display: flex;
         align-items: center;
         justify-content: center;
         min-height: 100vh;
-        margin: 0;
+        margin: 0;        
         border: none;       
     } 
     .container {
